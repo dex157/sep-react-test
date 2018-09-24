@@ -19,4 +19,4 @@ script:
 
 after_script:
   - cp build/index.html build/200.html
-  - surge --project ./build --domain ls-react-sep-pr-$TRAVIS_PULL_REQUEST.surge.sh
+  - surge --project ./build --domain react-sep-pr-$TRAVIS_PULL_REQUEST.surge.sh
